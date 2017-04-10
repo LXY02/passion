@@ -1,0 +1,78 @@
+a { text-decoration: none; }
+
+/*header {*/ /*background: url("../images/top-bg.jpg") no-repeat;*/ /*height: 550px;*/ /*background-size: 100% 100%;*/ /*position: relative;*/ /*}*/
+/*header .w {*/ /*width: 600px;*/ /*}*/
+/*header .title {*/ /*background: url("../images/Passion(logo).png") no-repeat;*/ /*display: inline-block;*/ /*font-size: 0;*/ /*width: 105px;*/ /*height: 27px;*/ /*position: absolute;*/ /*top: 40px;*/ /*left: 50%;*/ /*transform: translateX(-50%);*/ /*}*/
+/*header h1 {*/ /*font-size: 34px;*/ /*line-height: 1.3;*/ /*color: #fff;*/ /*width: 440px;*/ /*position: absolute;*/ /*top: 27%;*/ /*left: 15%;*/ /*}*/
+/*header .downA {*/ /*color: #fff;*/ /*font-size: 18px;*/ /*padding: 20px 44px;*/ /*background: #f5a65b;*/ /*position: absolute;*/ /*top: 51%;*/ /*left: 15%;*/ /*}*/
+.w {  margin: 0 60px; }
+
+header {  background: url(../images/billboard.jpg) no-repeat bottom center;  background-size: cover;  height: 674px;  padding-top: 50px; }
+header .logo {  background: url(../images/header_logo.png) no-repeat 0 0;  width: 105px;  height: 27px;  margin: 0 auto; }
+header .line {  margin-top: 34px;  border-bottom: 3px solid #343f53; }
+header .title {  margin-top: 74px;  color: #FFF;  font-size: 34px;  font-weight: bold;  line-height: 48px;  text-transform: uppercase;  width: 80%; }
+header .download {  font-size: 18px;  font-weight: bold;  text-decoration: none;  text-transform: uppercase;  color: #FFF;  padding: 20px 28px;  background-color: #F5A65B;  display: inline-block;  margin-top: 28px; }
+
+
+    section .sec-title {  font-size: 20px;  text-align: center;  margin-bottom: 20px;  text-transform: uppercase; }
+    section .separator {margin-bottom: 36px;}
+
+/*主体内容公用样式*/
+.sec {  padding: 50px 10%; }
+.sec .separator i:first-child {  display: block;  width: 2px;  height: 20px;  background: #e9e9e9;  position: relative;  left: 50%;  transform: translateX(-50%); }
+.sec .separator i:last-child {  display: block;  width: 100%;  height: 2px;  background: #e9e9e9; }
+/*主体内容第一部分*/
+.sec-1 .container {  display: flex; }
+.sec-1 .container div {  flex: 1;  padding: 0px 12px;  text-align: center; }
+.sec-1 .container div img {  width: 140px;  height: 140px;  margin: 50px 0 25px; }
+.sec-1 .container div h2 {  font-size: 16px;  font-weight: bold;  color: #495d79;  margin-bottom: 38px; }
+.sec-1 .container div p {  font-size: 16px;  line-height: 1.5;  color: #7188a8; }
+
+/*主体内容第二部分*/
+/*.sec-2 img,*/
+/*.sec-2 .right{*/ /*float: left;*/ /*width: 50%;*/ /*}*/
+/*.sec-2 .right {*/ /*padding: 6% 8% 0;*/ /*background: #f5f5f5;*/ /*padding-bottom: 5%;*/ /*}*/
+/*.sec-2 .right p {*/ /*font-size: 20px;*/ /*color: #667386;*/ /*line-height: 1.5;*/ /*text-indent: 36px;*/ /*background: url("../images/quote.png") top -3px left  no-repeat;*/ /*}*/
+/*.sec-2 .right i {*/ /*display: block;*/ /*width: 10%;*/ /*height: 2px;*/ /*margin: 8% 0;*/ /*background: #d3d1d1;*/ /*}*/
+/*.sec-2 .right span {*/ /*font-size: 16px;*/ /*color: #7188a8;*/ /*}*/
+.sec-2 {  background: url("../images/quote_img.jpg") #f5f5f5 left top no-repeat;  background-size: 50% 100%; }
+.sec-2 img { display: none; }
+.sec-2 .right {  margin-left: 50%;  padding: 6% 8%; }
+.sec-2 .right p {font-size: 20px;color: #667386;line-height: 1.5;text-indent: 36px;background: url("../images/quote.png") top -1px left  no-repeat;}
+.sec-2 .right i {  display: block;  width: 10%;  height: 2px;  margin: 8% 0;  background: #d3d1d1; }
+.sec-2 .right span {  font-size: 16px;  color: #7188a8; }
+
+/*主体内容第三部分*/
+.sec-3 .container {  display: flex; }
+.sec-3 .container div {  flex: 1;  margin-left: 6%; }
+.sec-3 .container div:first-child {  margin-left: 0; }
+.sec-3 .container div h1 {  font-size: 16px;  color: #495d79;  margin: 22px 0 8px;  line-height: 1.5; }
+.sec-3 .container div p {  font-size: 14px;  line-height: 1.5;  color: #7188a8; }
+
+/*主体内容第四部分*/
+.sec-4 .container {  display: flex; }
+.sec-4 .container a:nth-child(2n+1) {  flex: 1;  height: 200px; /*height: auto;*/  margin-right: 30px;  margin-bottom: 30px; }
+.sec-4 .container a:nth-child(2n+1) img{  width: 100%;  height: 100%; }
+.sec-4 .container a:nth-child(2n) {  flex: 2;  height: 200px; /* height: auto; */  margin-bottom: 30px; }
+.sec-4 .container a:nth-child(2n) img {  width: 100%;  height: 100%; }
+/*可以四个a写在同一个container里，flex-wrap:wrap; 换行的意思。*/
+    /*justify-content：space-between；两端对齐。*/
+
+/*主体内容第五部分*/
+.sec-5 {  background: #4f5d72;  text-align: center; }
+.sec-5 .title {  text-transform: uppercase;  font-size: 30px;  color: #fff;  font-weight: normal; }
+.sec-5 a {  display: inline-block;  text-transform: uppercase;  font-size: 16px;  color: #3d495a;  padding: 18px 41px;  background: #fff;  margin-top: 40px; }
+
+/*尾部*/
+footer {  padding: 40px 10% ; }
+footer .floor1 {  display: flex; }
+footer .floor1 i {  background: url("../images/footer_logo.png") no-repeat;  flex: 4;  height: 19px; }
+footer .floor1 ul {  flex: 2;  display: flex; }
+footer .floor1 ul li {  flex: 1;  margin-left: 20px; }
+footer .floor1 li a {  font-size: 14px;  color: #414d60;  line-height: 19px; }
+footer hr {  width: 100%;  height: 2px;  border: none;  background: #e9e9e9;  margin:40px 0; }
+footer .floor2 {  display: flex; }
+footer .floor2 p {flex: 3;font-size: 12px;color: #414d60;margin-right: -50px;}
+footer .floor2 ul {  flex: 1;  display: flex; }
+footer .floor2 ul li {  flex: 1;  display: inline-block; }
+

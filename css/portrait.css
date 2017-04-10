@@ -1,0 +1,78 @@
+@media(orientation: portrait) {
+    /*主体内容第一部分*/
+    .sec-1 .container {
+        display: block;
+    }
+    .sec-1 .container div {
+        display: block;
+        width: 100%;
+    }
+    .sec-1 .container div p {
+        width: 60%;
+        margin: 17px auto;
+    }
+    /*主体内容第二部分*/
+    .sec-2 {
+        background-image: none;
+        padding: 8% 8%;
+    }
+    .sec-2 img {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .sec-2 .right {
+        margin: 0;
+    }
+    /*主体内容第三部分*/
+    .sec-3 .container {
+        display: block;
+    }
+    .sec-3 .container div {
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+    .sec-3 .container div img {
+        margin-top: 20px;
+    }
+    /*主体内容第四部分*/
+    .sec-4 .container {
+        display: block;
+    }
+    .sec-4 .container a{
+        display: block;
+        width: 100%;
+    }
+    .sec-4 .container a img {
+        width: 100%;
+    }
+    /*尾部*/
+    footer .floor1{
+        display: block;
+    }
+    footer .floor1 i {
+        display: block;
+        flex: auto;/* 这是一个默认值*/
+        margin-bottom: 30px;
+    }
+    footer .floor2 {
+        display: block;
+        padding-bottom: 30px;
+    }
+    footer .floor2 p {
+        display: block;
+        flex: auto;
+        position: relative;
+        width: 100%;
+        text-align: center;
+        top: 80px;
+        padding-bottom: 25px;
+    }
+    footer hr {
+        margin: 25px 0;
+    }
+    footer .floor2 li {
+        text-align: center;
+    }
+}
